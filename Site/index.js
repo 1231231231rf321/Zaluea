@@ -1,6 +1,6 @@
 const form = document.querySelector('form');
 const input = document.querySelector('input');
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 10000;
 
 form.addEventListener('submit', async event => {
     event.preventDefault();
